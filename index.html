@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>reveal.js</title>
+
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/moon.css" id="theme" />
+
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section data-background-image="1.jpg">
+          <h1>THE PROJECT</h1>
+          <h1>AND</h1>
+          <h1>THE ROLE</h1>
+        </section>
+
+        <section data-background-image="2.jpg">
+          <h2>TABLE OF CONTENTS</h2>
+          <ul>
+            <li>Story behind the project</li>
+            <li>Sneak Peek</li>
+            <li>Highlights and technology</li>
+            <li>Obstacle and Solution</li>
+            <li>The project and the role</li>
+            <li>More thinking about the role</li>
+          </ul>
+        </section>
+        <section data-background-image="2.jpg">
+          <h2 class="bubble">STORY BEHIND THE PROJECT</h2>
+          <h4>Project Name:</h4>
+          <p>
+            COVID-19 Australia status data visualization
+          </p>
+          <h4>Project background:</h4>
+          <p>
+            During the COVID-19 pandemic crisis. People are keen to know the
+            current situation as well as the historical data to get a better
+            idea of the trending.
+          </p>
+          <h4>Project goal:</h4>
+          <p>
+            I have built a data visualization app consuming an API from the
+            community and done some transformation to display the overall
+            trending as well as the trending in each state. I also made the
+            application public and share this information with others.
+          </p>
+        </section>
+
+        <!-- Example of nested vertical slides -->
+        <section data-background-image="2.jpg">
+          <section>
+            <h2>SNEAK PEEK</h2>
+            <a href="#/3/1" class="image">
+              <img
+                width="178"
+                height="238"
+                src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png"
+                alt="Down arrow"
+              />
+            </a>
+          </section>
+
+          <section>
+            <h2>Deploy on Heroku:</h2>
+            <div>
+              <a href="https://c19-trending.herokuapp.com/" class="image">
+                https://c19-trending.herokuapp.com/
+              </a>
+            </div>
+            <a href="#/3/2" class="image">
+              <img
+                width="178"
+                height="238"
+                src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png"
+                alt="Down arrow"
+              />
+            </a>
+          </section>
+          <section data-background-image="3.png"></section>
+        </section>
+
+        <section data-background-image="2.jpg">
+          <h2>HIGHLIGHTS AND TECHNOLOGY</h2>
+          <ul class="mid">
+            <li>Use what I've learned to solve people’s real-life problem.</li>
+            <p class="tech">HTML / CSS / Javascript / Node</p>
+            <li>Simple solutions.</li>
+            <p class="tech">Bulma / Chart.js</p>
+            <li>No cost of the infrastructure.</li>
+            <p class="tech">Github / Heroku</p>
+            <li>
+              Used broader knowledge and experience to deliver better solution
+              and user experience.
+            </li>
+            <p class="tech">
+              Slack webhook / Google Analytics / Git branch development /
+              Continuous Deployment.
+            </p>
+          </ul>
+        </section>
+
+        <section data-background-image="2.jpg">
+          <h2>OBSTACLE & SOLUTION</h2>
+          <h4>Obstacle:</h4>
+          <p>Once blank page happened when third party API failure.</p>
+          <h4>Solution:</h4>
+          <p>
+            Build local file system cache for the data daily for the backup plan
+            for the third party API failure.
+          </p>
+        </section>
+
+        <section data-background-image="2.jpg">
+          <h2>THE PROECT & THE ROLE</h2>
+          <ol>
+            <li>Solve for problems and issues that matter</li>
+            <li>Develop both breadth and depth</li>
+            <li>Continuous improvement</li>
+            <li>Own it</li>
+          </ol>
+        </section>
+
+        <section data-background-image="2.jpg">
+          <h2>A little bit more thinking about the role...</h2>
+          <ul>
+            <li>I’m a good candidate for this role</li>
+            <h4>
+              Technology background / Passion / Learning skills / Good team
+              player
+            </h4>
+            <li>I will be a good mainframe developer</li>
+            <h4>Technology / Business logic / New methodology</h4>
+          </ul>
+        </section>
+        <section data-background-image="2.jpg">
+          <h2>
+            “Every line of code you write will have the greatest positive impact
+            on the greatest number of people”
+          </h2>
+          <h3>
+            ----END
+          </h3>
+        </section>
+      </div>
+    </div>
+
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
+</html>
